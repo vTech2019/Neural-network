@@ -1,0 +1,25 @@
+main	main.c	/^int main(){$/;"	f
+ARRAY_SIZE	cl_device.c	7;"	d	file:
+cl_allocateDevices	cl_device.c	/^struct cl_devices* cl_allocateDevices(cl_uint number_devices){$/;"	f
+cl_allocatePlatforms	cl_device.c	/^cl_platforms* cl_allocatePlatforms(cl_uint number_platforms){$/;"	f
+printPlatformInfo	cl_device.c	/^void printPlatformInfo(cl_platform_id* platform, cl_uint number_platforms){$/;"	f
+printDeviceInfo	cl_device.c	/^void printDeviceInfo(cl_device_id* device, cl_uint number_devices){$/;"	f
+printContextInfo	cl_device.c	/^void printContextInfo(cl_context* context){$/;"	f
+cl_initDevices	cl_device.c	/^cl_platforms* cl_initDevices(){$/;"	f
+cl_freeDevices	cl_device.c	/^void cl_freeDevices(cl_platforms** platforms){$/;"	f
+OPENCL_CL_DEVICE_H	cl_device.h	6;"	d
+programs	cl_device.h	/^    cl_program* programs;$/;"	m	struct:__anon1
+number_programs	cl_device.h	/^    cl_uint number_programs;$/;"	m	struct:__anon1
+queue	cl_device.h	/^    cl_command_queue queue;$/;"	m	struct:__anon1
+cl_device	cl_device.h	/^}cl_device;$/;"	t	typeref:struct:__anon1
+number_devices	cl_device.h	/^    cl_uint number_devices;$/;"	m	struct:__anon2
+context	cl_device.h	/^    cl_context context;$/;"	m	struct:__anon2
+device_data	cl_device.h	/^    cl_device* device_data;$/;"	m	struct:__anon2
+ids	cl_device.h	/^    cl_device_id ids[0];$/;"	m	struct:__anon2
+cl_devices	cl_device.h	/^}cl_devices;$/;"	t	typeref:struct:__anon2
+number_platforms	cl_device.h	/^    cl_uint number_platforms;$/;"	m	struct:__anon3
+devices	cl_device.h	/^    cl_devices* devices;$/;"	m	struct:__anon3
+ids	cl_device.h	/^    cl_platform_id ids[0];$/;"	m	struct:__anon3
+cl_platforms	cl_device.h	/^}cl_platforms;$/;"	t	typeref:struct:__anon3
+cl_initDevices	cl_device.h	/^cl_platforms* cl_initDevices();$/;"	p
+cl_freeDevices	cl_device.h	/^void cl_freeDevices(cl_platforms** platforms);$/;"	p

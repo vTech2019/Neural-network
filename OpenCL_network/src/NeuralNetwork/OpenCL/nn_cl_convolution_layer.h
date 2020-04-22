@@ -1,0 +1,8 @@
+//
+// Created by human on 13.03.2020.
+//
+
+#ifndef OPENCL_NN_CL_CONVOLUTION_LAYER_H
+#define OPENCL_NN_CL_CONVOLUTION_LAYER_H
+
+#endif //OPENCL_NN_CL_CONVOLUTION_LAYER_H
